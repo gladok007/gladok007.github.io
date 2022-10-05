@@ -1,0 +1,253 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  padding: 13px 70px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu .menu_item {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: #fff;
+  padding-right: 28px;
+  border-right: 2px dotted black;
+}
+
+.menu .menu_item:last-child {
+  border: none;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
+}
+
+.subheader .subheader_call {
+  margin-top: 19px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+  color: #fff;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.promo {
+  min-height: 800px;
+  padding-top: 151px;
+  background: url("../img/promo_bg.png") center center/cover no-repeat;
+}
+
+.promo .promo_titel {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.promo .promo_subtitel {
+  margin: 0;
+  margin-top: 22px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.promo .promo_descr {
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+.reasons {
+  min-height: 900px;
+  padding: 71px 0 65px 0;
+  background: url("../img/reasons_bg.png") center center/cover no-repeat;
+}
+
+.reasons .advantage,
+.mobile .possibility {
+  margin: 0 auto;
+  padding-top: 8px;
+  width: 112px;
+  height: 24px;
+  background-color: #000;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.reasons .reasons_title,
+.mobile .mobile_titel {
+  margin-top: 38px;
+  font-size: 38px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  color: #222;
+}
+
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.reasons .reasons_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+  width: 341px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_item_subtitel {
+  margin: 0;
+  line-height: 21px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 17px;
+  color: #1eacc7;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_item_text {
+  line-height: 21px;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: justify;
+  color: #202020;
+}
+
+.mobile {
+  min-height: 864px;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+  padding-top: 48px;
+}
+
+.mobile .mobile_descrip {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  color: #222;
+}
+
+.mobile .mobile_list {
+  margin-top: 32px;
+  padding-left: 23px;
+  position: absolute;
+}
+
+.mobile .mobile_item_text {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.mobile .mobile_item .mobile_img {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
